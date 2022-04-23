@@ -138,3 +138,83 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Card section */
+
+.r-work{
+  Font-family: 'Roboto', sans-serif;
+  Font-size: 40px;
+  Line-height: 111%;
+  width: 221px;
+  margin-left: 24px;
+  color: #9490FF;
+}
+
+.img-p {
+  width: 327px;
+  height: 236px;
+  text-align: center;
+margin-left: 24px;
+}
+
+.m-stories {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 46px;
+  margin-bottom: 46px;
+  margin-left: 24px;
+}
+
+.c-prg {
+  height: 204px;
+width: 327px;
+left: 0px;
+top: 129px;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 24px;
+
+}
+
+.c-list {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Inter', sans-serif;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+gap: 1rem;
+margin-left: 24px;
+}
+
+.c-d {
+  color: #555555;
+  height: 40px;
+width: 1px;
+left: 130px;
+top: 0px;
+border-radius: 0px;
+font-size: 24px;
+}
+
+.btn {
+  height: 58px;
+  width: 100px;
+  border-radius: 0px;
+  padding: 12px;
+  background-color: #7D73FC;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  font-size: 12px;
+  color: #fff;
+}
