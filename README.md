@@ -1,8 +1,10 @@
-# Hello-# My-Portfolio
+# Mobile Skeleton
 
-> set-up a Hello Microverse!
+> Mobile Skeleton Project For Microverse By Bwalya Nonde 
 
-![setup a hello-microverse](./photos/hello-microverse.png)
+> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
+
+![screenshot](./mobile-skeleton.png)
 
 
 
