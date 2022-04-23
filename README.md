@@ -5,6 +5,7 @@
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
 ![mobile-skeleton.png](./images/shot-1.png)
+![portfolio mobile-version](./images/shot2.png)
 
 
 
