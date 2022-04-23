@@ -141,20 +141,20 @@ body {
 
 /* Card section */
 
-.r-work{
-  Font-family: 'Roboto', sans-serif;
-  Font-size: 40px;
-  Line-height: 111%;
+.r-work {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 111%;
   width: 221px;
   margin-left: 24px;
-  color: #9490FF;
+  color: #9490ff;
 }
 
 .img-p {
   width: 327px;
   height: 236px;
   text-align: center;
-margin-left: 24px;
+  margin-left: 24px;
 }
 
 .m-stories {
@@ -162,7 +162,7 @@ margin-left: 24px;
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-top: 46px;
   margin-bottom: 46px;
@@ -171,48 +171,47 @@ margin-left: 24px;
 
 .c-prg {
   height: 204px;
-width: 327px;
-left: 0px;
-top: 129px;
-font-family: 'Inter', sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-margin-left: 24px;
-
+  width: 327px;
+  left: 0;
+  top: 129px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 24px;
 }
 
 .c-list {
   display: flex;
   flex-direction: row;
   font-family: 'Inter', sans-serif;
-font-size: 15px;
-font-weight: 500;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-gap: 1rem;
-margin-left: 24px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  gap: 1rem;
+  margin-left: 24px;
 }
 
 .c-d {
-  color: #555555;
+  color: #555;
   height: 40px;
-width: 1px;
-left: 130px;
-top: 0px;
-border-radius: 0px;
-font-size: 24px;
+  width: 1px;
+  left: 130px;
+  top: 0;
+  border-radius: 0;
+  font-size: 24px;
 }
 
 .btn {
   height: 58px;
   width: 100px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 12px;
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   margin-left: 24px;
   margin-bottom: 40px;
   font-size: 12px;
@@ -222,7 +221,7 @@ font-size: 24px;
 .bg1 {
   background-image: url(./images/bg1.png);
   background-repeat: no-repeat;
-  background-position: 0px 93px;
+  background-position: 0 93px;
   background-size: 220px;
 }
 
@@ -236,7 +235,7 @@ font-size: 24px;
 .bg3 {
   background-image: url(./images/bg3.png);
   background-repeat: no-repeat;
-  background-position: 0px 222px;
+  background-position: 0 222px;
   background-size: 226px;
 }
 
