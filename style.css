@@ -1,0 +1,62 @@
+main {
+  background-color: #191765;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.intro-photo {
+  background-image: url("images/Ellipse18.svg");
+  background-repeat: no-repeat;
+  height: 351px;
+  width: 137px;
+  position: relative;
+  top: -32px;
+}
+
+.intro-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-details h1,
+h2,
+p {
+  text-align: center;
+}
+
+.introduction {
+  position: relative;
+  top: -302px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro-paragraph {
+  color: #c8c8d4;
+}
+
+.intro-details h1 {
+  color: #7d73fc;
+}
+
+ul {
+  list-style-type: none;
+}
