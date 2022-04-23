@@ -69,7 +69,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 24px;
-  gap: 10rem;
+  gap: 8rem;
 }
 
 .hr1 {
@@ -110,8 +110,8 @@ body {
 }
 
 .h-li {
-  width: 84px;
-  font-size: 12px;
+  width: 98px;
+  font-size: 15px;
   font-family: 'roboto', sans-serif;
 }
 
