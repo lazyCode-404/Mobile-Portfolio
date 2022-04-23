@@ -239,3 +239,10 @@ font-size: 24px;
   background-position: 0px 222px;
   background-size: 226px;
 }
+
+.bg4 {
+  background-image: url(./images/bg4.png);
+  background-repeat: no-repeat;
+  background-position: 159px 193px;
+  background-size: 217px;
+}
