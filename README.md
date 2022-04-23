@@ -1,4 +1,4 @@
-# Mobile Skeleton
+# Mobile Version
 
 > Mobile Skeleton Project For Microverse By Bwalya Nonde 
 
