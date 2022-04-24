@@ -218,6 +218,21 @@ body {
   color: #fff;
 }
 
+.btn:hover {
+color: #fff;
+background-color: #7D73FC;
+}
+
+.btn:active {
+color: #fff;
+background-color: #5E42D7;
+}
+
+.btn:disabled {
+color: #fff;
+background-color: #2A2B33;
+}
+
 .bg1 {
   background-image: url(./images/bg1.png);
   background-repeat: no-repeat;
