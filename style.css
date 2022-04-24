@@ -219,18 +219,18 @@ body {
 }
 
 .btn:hover {
-color: #fff;
-background-color: #7D73FC;
+  color: #fff;
+  background-color: #7d73fc;
 }
 
 .btn:active {
-color: #fff;
-background-color: #5E42D7;
+  color: #fff;
+  background-color: #5e42d7;
 }
 
 .btn:disabled {
-color: #fff;
-background-color: #2A2B33;
+  color: #fff;
+  background-color: #2a2b33;
 }
 
 .bg1 {
