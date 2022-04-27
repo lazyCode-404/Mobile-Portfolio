@@ -260,3 +260,56 @@ body {
   background-position: 159px 193px;
   background-size: 217px;
 }
+contact-us {
+  width: 327px;
+  margin: 24px;
+}
+section > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input area {
+width: 90%;
+    margin: 12px;
+    background: #fff;
+    border: 1px solid #9490ff;
+    font-weight: 400;
+    font-size: 15px;
+    color: #81818c;
+    padding: 16px;
+  }
+
+  .text-area {
+    height: 100px;
+    margin: 12px;
+    background: #fff;
+    border: 1px solid #9490ff;
+    padding: 16px;
+    width: 90%;
+  }
+  .submit {
+    height: 58px;
+    width: 100px;
+    border-radius: 0;
+    padding: 12px;
+    background-color: #7d73fc;
+    margin-left: 24px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .submit:hover {
+    color: #fff;
+    background-color: #7d73fc;
+  }
+  
+  .submit:active {
+    color: #fff;
+    background-color: #5e42d7;
+  }
+  
+
+
+
