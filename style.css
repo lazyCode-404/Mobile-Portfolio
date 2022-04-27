@@ -148,6 +148,9 @@ body {
   width: 221px;
   margin-left: 24px;
   color: #9490ff;
+  margin-bottom: 69px;
+  text-align: left;
+  margin-top: -43px;
 }
 
 .img-p {
@@ -260,7 +263,8 @@ body {
   background-position: 159px 193px;
   background-size: 217px;
 }
-contact-us {
+
+.section-contact-us {
   width: 327px;
   margin: 24px;
 }
@@ -269,8 +273,8 @@ section > form {
   flex-direction: column;
   align-items: center;
 }
-.input area {
-width: 90%;
+.input-text-area {
+    width: 90%;
     margin: 12px;
     background: #fff;
     border: 1px solid #9490ff;
@@ -288,16 +292,19 @@ width: 90%;
     padding: 16px;
     width: 90%;
   }
-  .submit {
-    height: 58px;
-    width: 100px;
-    border-radius: 0;
-    padding: 12px;
-    background-color: #7d73fc;
-    margin-left: 24px;
-    margin-bottom: 40px;
+  
+  .submit-btn {
+    width: 89px;
+    height: 70px;
+    font-weight: 500;
     font-size: 12px;
-    color: #fff;
+    line-height: 40px;
+    background: #7d73fc;
+    border-style: none;
+    color: #edecff;
+    letter-spacing: 0.48px;
+    padding: 6px;
+    margin: 24px;
   }
   
   .submit:hover {
@@ -308,6 +315,25 @@ width: 90%;
   .submit:active {
     color: #fff;
     background-color: #5e42d7;
+  }
+
+  section > h2 {
+    height: 35px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #9390ff;
+    margin: 24px;
+  }
+
+  section > p {
+    height: 105px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: #f5f5ff;
   }
   
 
