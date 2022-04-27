@@ -293,26 +293,25 @@ section > form {
     width: 90%;
   }
   
-  .submit-btn {
-    width: 89px;
-    height: 70px;
-    font-weight: 500;
+.submit-btn {
+    height: 58px;
+    width: 100px;
+    border-radius: 0;
+    padding: 12px;
+    background-color: #7d73fc;
+    margin-left: 24px;
+    margin-bottom: 40px;
     font-size: 12px;
-    line-height: 40px;
-    background: #7d73fc;
-    border-style: none;
-    color: #edecff;
-    letter-spacing: 0.48px;
-    padding: 6px;
-    margin: 24px;
+    color: #fff;
   }
   
-  .submit:hover {
+  
+  .submit-btn:hover {
     color: #fff;
     background-color: #7d73fc;
   }
   
-  .submit:active {
+  .submit-btn:active {
     color: #fff;
     background-color: #5e42d7;
   }
@@ -335,7 +334,13 @@ section > form {
     text-align: center;
     color: #f5f5ff;
   }
-  
+.hr2 {
+  color:#3A3837;
+}
+footer p{
+    text-align: center;
+    margin-top: -34px;
+  }
 
 
 
