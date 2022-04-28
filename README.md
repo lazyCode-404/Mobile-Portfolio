@@ -4,7 +4,7 @@
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
-![contact-form.png](./images/contact-form.png)
+![screenshot](./images/Desktop.png)
 
 
 
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Bwalya Nonde*
 
 - GitHub: [@BwalyaNonde](https://github.com/BwalyaNonde)
-- Twitter: [@BwalyaNonde](www.twittwwer.com)
+- Twitter: [@BwalyaNonde](www.twitter.com)
 - LinkedIn: [Bwalya Nonde](https://www.linkedin.com/in/bwalya-nonde-29a003142/)
 
 ## 🤝 Contributing
