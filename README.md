@@ -1,50 +1,31 @@
-# Mobile-Version
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> Mobile version Project For Microverse By Bwalya Nonde 
+# Portfolio
 
-> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
-
-![contact-form.png](./images/contact-form.png)
-
-
+This portfolio shows what I am capable of doing as a software developer.With this I can be a  great asset to software companies.
 
 ## Built With
 
-- html
-- css
-
-[Live Demo Link](https://bwalyanonde.github.io/Mobile-Portfolio/)
+- HTML
+- CSS
 
 
-To get a local copy up and running follow these simple example steps.
+Check out it here : https://mutalenic.github.io/Portfolio/
 
 
+## Authors
 
-
-## Author
-
-👤 **Bwalya Nonde*
-
-- GitHub: [@BwalyaNonde](https://github.com/BwalyaNonde)
-- Twitter: [@BwalyaNonde](www.twittwwer.com)
-- LinkedIn: [Bwalya Nonde](https://www.linkedin.com/in/bwalya-nonde-29a003142/)
+- GitHub: [@Mutalenic](https://github.com/Mutalenic)
+- Twitter: [@nicomutale](https://twitter.com/nicomutale)
+- LinkedIn: [LinkedIn: nicholasmutale](https://www.linkedin.com/in/nicholas-mutale-715714124/)
 
 ## 🤝 Contributing
+- GitHub: [@Thermiee](https://github.com/Thermiee)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mutalenic/Portfolio/issues).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Give a ⭐️ if you like this project
