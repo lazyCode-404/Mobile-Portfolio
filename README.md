@@ -1,10 +1,11 @@
-# Mobile-Version
+# Desktop Portfolio
 
-> Mobile version Project For Microverse By Bwalya Nonde 
+> Desktop Portfolio Project For Microverse By Bwalya Nonde 
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
 ![screenshot](./images/Desktop.png)
+![screenshot](./images/feature-shot.png)
 
 
 
@@ -26,8 +27,8 @@ To get a local copy up and running follow these simple example steps.
 👤 **Bwalya Nonde*
 
 - GitHub: [@BwalyaNonde](https://github.com/BwalyaNonde)
-- Twitter: [@BwalyaNonde](www.twitter.com)
-- LinkedIn: [Bwalya Nonde](https://www.linkedin.com/in/bwalya-nonde-29a003142/)
+- Twitter: [nonde_bwalya](https://twitter.com/nonde_bwalya)
+- LinkedIn: [Bwalya Nonde](https://www.linkedin.com/in/bwalya-nonde-5865601a9/)
 
 ## 🤝 Contributing
 
