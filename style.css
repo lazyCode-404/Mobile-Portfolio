@@ -458,6 +458,17 @@ body {
     width: 20px;
   }
 
+  .lang li {
+    border-right: solid 1px #555;
+    padding: 10px 12px;
+    font-size: 15px;
+    color: #dcdce8;
+  }
+
+  .lang li.ruby {
+    border-right: none;
+  }
+
   .nav-li {
     display: flex;
     gap: 20px;
@@ -715,17 +726,6 @@ body {
     font-style: normal;
     line-height: 28px;
     color: #dfe1e6;
-  }
-
-  .lang li {
-    border-right: solid 1px #555;
-    padding: 10px 12px;
-    font-size: 15px;
-    color: #dcdce8;
-  }
-
-  .lang li.ruby {
-    border-right: none;
   }
 
   .button {
