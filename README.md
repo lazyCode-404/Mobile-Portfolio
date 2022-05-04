@@ -1,12 +1,10 @@
-# Desktop Portfolio
+# Portfolio: Application Deploy
 
-> Desktop Portfolio Project For Microverse By Bwalya Nonde 
+> Portfolio: Application Deploy Project For Microverse By Bwalya Nonde 
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
 
-![screenshot](./images/Desktop.png)
-![screenshot](./images/feature-shot.png)
-
+![screenshot](./images/git-page.png)
 
 
 ## Built With
@@ -14,7 +12,7 @@
 - html
 - css
 
-[Live Demo Link](https://bwalyanonde.github.io/Mobile-Portfolio/)
+[Online Version Link](https://bwalyanonde.github.io/Mobile-Portfolio/)
 
 
 To get a local copy up and running follow these simple example steps.
