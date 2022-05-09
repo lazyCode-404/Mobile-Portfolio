@@ -28,16 +28,15 @@
   <body>
     <header class="nav">
       <a class="logo" href="#">Bwalya Nonde</a>
-      <nav class="nav-buttons">
-        <ul class="nav-li">
-          <li><a>Portfolio</a></li>
-          <li><a>Contact</a></li>
-          <li><a>About</a></li>
-          <li>
-            <i class="far fa-envelope"></i>
-          </li>
-        </ul>
-      </nav>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Portfolio</a>
+          <a href="#">Contact</a>
+          <a href="#">About</a>
+        </div>
+      </div>    
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
       <div class="bars">
         <i class="fas fa-bars bars"></i>
       </div>
@@ -301,5 +300,6 @@
       </ul>
       <div class="mail-to">bwalyanonde@gmail.com</div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
