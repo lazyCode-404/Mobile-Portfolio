@@ -408,8 +408,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: #191765;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -443,12 +442,26 @@ body {
 }
 
 
+header span {
+  color: #fff;
+}
+
   .overlay a {font-size: 20px}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
   }
+
+  .overlay-content {
+    border: 1px solid red;
+  }
+
+.overlay-content .fa-angle-right{
+  justify-content: space-between;
+  border: 1px solid red;
+
+}
 
 @media screen and (min-width: 992px) {
   body {
