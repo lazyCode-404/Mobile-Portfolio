@@ -453,6 +453,9 @@ body {
 
 header span {
   color: #fff;
+  width: 50%;
+  margin-left: 80%;
+  text-align: end;
 }
 
   .overlay a {font-size: 20px}
