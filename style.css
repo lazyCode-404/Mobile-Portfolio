@@ -411,6 +411,9 @@ body {
   background-color: #191765;
   overflow-x: hidden;
   transition: 0.5s;
+  background-image: url(./bgimages/image-bg-1.png), url(./bgimages/image-bg.png);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .overlay-content {
@@ -451,10 +454,6 @@ header span {
   font-size: 40px;
   top: 15px;
   right: 35px;
-  }
-
-  .overlay-content {
-    border: 1px solid red;
   }
 
 .overlay-content .fa-angle-right{
