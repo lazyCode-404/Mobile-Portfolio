@@ -411,8 +411,8 @@ body {
   background-color: #191765;
   overflow-x: hidden;
   transition: 0.5s;
-  background-image: url(./bgimages/image-bg-1.png), url(./bgimages/image-bg.png);
-  background-position: left top, right bottom;
+  background-image: url(./bgimages/image-bg-1.png);
+  background-position: left top;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -427,10 +427,16 @@ body {
 .overlay a {
   padding: 8px;
   text-decoration: none;
+  margin-top: 15px;
   font-size: 36px;
-  color: #818181;
   display: block;
   transition: 0.3s;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -457,9 +463,12 @@ header span {
   }
 
 .overlay-content .fa-angle-right{
-  justify-content: space-between;
-  border: 1px solid red;
+  float: right;
 
+}
+
+.overlay-content-1  {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 992px) {
@@ -937,6 +946,22 @@ header span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .overlay-content-1  {
+    visibility: visible;
+  }
+
+.overlay-content-1  a {
+  margin: 15px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  }
+
+
+  .openNav {
+    display: none;
   }
 }
 
