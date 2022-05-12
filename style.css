@@ -456,11 +456,6 @@ header span {
   margin-left: 80%;
   text-align: end;
 }
-.overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
 
 .overlay-content .fa-angle-right{
   float: right;
