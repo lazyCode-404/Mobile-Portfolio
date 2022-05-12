@@ -28,23 +28,26 @@
   <body>
     <header class="nav">
       <a class="logo" href="#">Bwalya Nonde</a>
-      <nav class="nav-buttons">
-        <ul class="nav-li">
-          <li><a>Portfolio</a></li>
-          <li><a>Contact</a></li>
-          <li><a>About</a></li>
-          <li>
-            <i class="far fa-envelope"></i>
-          </li>
-        </ul>
-      </nav>
-      <div class="bars">
-        <i class="fas fa-bars bars"></i>
+      <div id="myNav" class="overlay">
+        <div class="x-btn">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <div class="overlay-content">
+          <a href="javascript:void(0);" class="nav-link" onclick="menuOptions('#portfolio')">Portfolio<i class="fa fa-angle-right"></i></a>
+          <a href="javascript:void(0);" class="nav-link" onclick="menuOptions('#about')">About<i class="fa fa-angle-right"></i></a>
+          <a href="javascript:void(0);" class="nav-link" onclick="menuOptions('#contact-us')">Contact<i class="fa fa-angle-right"></i></a>
+        </div>
+      </div>
+      <span class="openNav" onclick="openNav()">&#9776; </span>
+      <div class="overlay-content-1">
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
       </div>
     </header>
     <section class="headers">
       <h1>Bwalya Nonde</h1>
-      <h2>Software Developer</h2>
+      <h2 id="portfolio">Software Developer</h2>
       <p>
         I can help you build a product , feature or website. Look through some of
         my work and experience! If you like what you see and have a project you
@@ -100,7 +103,7 @@
       </div>
     </section>
     <section class="header">
-      <h2 class="recent">MY RECENT WORK</h2>
+      <h2 class="recent" id="about">MY RECENT WORK</h2>
       <h2 class="recent1">My recent work</h2>
       <hr class="line1" />
       <ul class="lang-sec">
@@ -129,7 +132,7 @@
             <button class="button" type="button">See Project</button>
           </div>
         </li>
-        <li class="card-sec reverse-row">
+        <li class="reverse-row">
           <div class="placeholder1">
             <img
               class="image1"
@@ -180,7 +183,7 @@
           </div>
         </li>
 
-        <li class="reverse-row card-sec">
+        <li class="reverse-row">
           <div class="placeholder1">
             <img
               class="image1"
@@ -208,7 +211,7 @@
       </ul>
     </section>
     <section class="footer">
-      <div class="footer-text">
+      <div class="footer-text" id="contact-us">
         <h2 class="contact">CONTACT US</h2>
         <h2 class="contact1">Let’s chat!</h2>
         <p class="contact-text">
@@ -301,5 +304,6 @@
       </ul>
       <div class="mail-to">bwalyanonde@gmail.com</div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

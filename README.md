@@ -1,22 +1,20 @@
-# Portfolio: Application Deploy
+# Portfolio: Mobile Menu
 
-> Portfolio: Application Deploy Project For Microverse By Bwalya Nonde 
+> Portfolio: Mobile Menu Project For Microverse By Bwalya Nonde 
 
-> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage.
+> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage. And JavaScript which is used for making the webpage responsive.
 
-![screenshot](./images/git-page.png)
+![screenshot](./images/menu-bar.png)
 
 
 ## Built With
 
 - html
 - css
-
-[Online Version Link](https://bwalyanonde.github.io/Mobile-Portfolio/)
+- javascript
 
 
 To get a local copy up and running follow these simple example steps.
-
 
 
 
