@@ -418,7 +418,7 @@ body {
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 15%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -446,8 +446,8 @@ body {
 .overlay .closebtn {
   position: absolute;
   top: 20px;
-  right: 45px;
-  font-size: 60px;
+  right: 0;
+  font-size: 37px;
 }
 
 header span {
@@ -459,11 +459,19 @@ header span {
 
 .overlay-content .fa-angle-right {
   float: right;
+  color: #acb7c3;
+}
+
+.nav-link {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .overlay-content-1 {
   visibility: hidden;
 }
+
 
 @media screen and (min-width: 992px) {
   body {
