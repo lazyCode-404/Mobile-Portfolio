@@ -680,7 +680,6 @@ header span {
   .card1 {
     margin-left: 50px;
     margin-right: 20px;
-
   }
 
   .image1 {
@@ -718,7 +717,6 @@ header span {
   }
 
   .lang-sec {
-    border: 1p solid red ;
     background-image: url(bgimages/btmimage.png);
     background-repeat: no-repeat;
     display: flex;
