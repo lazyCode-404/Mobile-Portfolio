@@ -652,12 +652,6 @@ header span {
     padding: 0 0 0 400px;
   }
 
-  .arrowicons {
-    display: flex;
-    display: inline-block;
-    flex-direction: row;
-  }
-
   .recent1 {
     color: #9390ff;
     font-weight: 700;
@@ -960,6 +954,8 @@ header span {
   .card-sec {
     width: 100%;
     height: 100%;
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
   }
-
 }
