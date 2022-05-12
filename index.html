@@ -224,38 +224,13 @@
         action="https://formspree.io/f/meqnpkre"
         method="post"
         class="conct-form"
+        id="contact-form"
       >
-        <div class="mobile-v">
-          <input
-            type="text"
-            name="name"
-            id="username"
-            placeholder="Text Input"
-            maxlength="30"
-            required
-          />
-          <br />
-          <input
-            type="email"
-            name="email"
-            id="useremail"
-            placeholder="jeremy@gmail.com"
-            required
-          /><br />
-          <textarea
-            name="message"
-            class="usermessage"
-            placeholder="Enter text here"
-            maxlength="500"
-            cols="30"
-            rows="10"
-            required
-          ></textarea>
-          <button class="button" type="submit">See Project</button>
-        </div>
         <div class="input-media-q">
+          <label for="name"></label>
           <input
             type="text"
+            id="name"
             class="height width"
             name="name"
             placeholder="Full name"
@@ -263,23 +238,31 @@
             required
           />
           <br />
+          <label for="email"></label>
           <input
             class="width height"
             type="email"
+            id="email"
             name="email"
             placeholder="Email address"
             required
           /><br />
+          <label for="textarea"></label>
           <textarea
             name="message"
+            id="textarea"
             class="usermessage width"
             placeholder="Write your message here"
             maxlength="500"
             cols="100"
-            rows="5"
+            rows="30"
             required
           ></textarea>
+          <div class="error-message">
+            <small class="error-text" aria-live="polite"></small>
+          </div>
           <button class="button" type="submit">Send</button>
+
         </div>
       </form>
     </section>
