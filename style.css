@@ -677,12 +677,6 @@ header span {
     top: 0;
   }
 
-  .card-sec {
-    display: flex;
-    margin-bottom: 10px;
-    padding: 10px 10px 10px 30px;
-  }
-
   .card1 {
     margin-left: 50px;
     margin-right: 20px;
@@ -957,5 +951,7 @@ header span {
     display: flex;
     display: inline-block;
     flex-direction: row;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 30px;
   }
 }
