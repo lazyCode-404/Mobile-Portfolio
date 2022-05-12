@@ -436,10 +436,10 @@ body {
   margin-right: 30px;
   color: #fff;
   font-family: Roboto, sans-serif;
-
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -456,9 +456,7 @@ header span {
   margin-left: 80%;
   text-align: end;
 }
-
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
+.overlay .closebtn {
   font-size: 40px;
   top: 15px;
   right: 35px;
