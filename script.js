@@ -19,7 +19,7 @@ function menuOptions(param) {
 const form = document.querySelector('.conct-form');
 const emailInput = form.elements.email;
 
-const INPUT_LOWERCASE = 'Error : Please enter email a lowercase input';
+const INPUT_LOWERCASE = 'Error : Please enter a lowercase email input';
 
 function showMessage(input, message, type) {
   const msg = document.querySelector('.error-text');
