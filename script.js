@@ -24,7 +24,7 @@ const languages = (string1, string2, string3, string4) => `<li>${string1}</li>
 
 const cardsinfo = [
   { id:1,
-    reverseCard: 'kwacha',
+    reverseCard: 'row',
     cardName: 'Multi-Post Stories',
     mainText: `A daily selection of privately personalized reads; no accounts or
     sign-ups required. has been the industry's standard dummy text
@@ -62,7 +62,7 @@ const cardsinfo = [
 
   },
   { id:3,
-    reverseCard: 'kwacha',
+    reverseCard: 'row',
     cardName: 'Multi-Post Stories',
     mainText: `A daily selection of privately personalized reads; no accounts or
     sign-ups required. has been the industry's standard dummy text
@@ -141,62 +141,62 @@ element.addEventListener('click', () => {
 })
 })
 
-const popUpCard = (card) => {
-  const temp = document.createElement('template')
-  temp.innerHTML= `
-  <div class="pop-up-box">
-  <div class="pop-up-header">
-<span onclick="closePopup()">X</span>
-    <div>
+// const popUpCard = (card) => {
+//   const temp = document.createElement('template')
+//   temp.innerHTML= `
+//   <div class="pop-up-box">
+//   <div class="pop-up-header">
+// <span onclick="closePopup()">X</span>
+//     <div>
 
-      <h2 class="projectTitle">${card.cardName}</h2>
-    </div>
-    <div class="close-btn">&times;</div>
-  </div>
-  <div class="placeholder1">
-    <img
-      class="popImage"
-      src="${card.image}"
-      alt="image placeholder" />
-  </div>
-  <div >
-    <p class="popText">
-      ${card.popupText}
-    </p>
-  </div>
-  <ul class="plang">
-    ${card.cardLang} 
-        <li class="pop-li unique">Github</li>
-  </ul>
+//       <h2 class="projectTitle">${card.cardName}</h2>
+//     </div>
+//     <div class="close-btn">&times;</div>
+//   </div>
+//   <div class="placeholder1">
+//     <img
+//       class="popImage"
+//       src="${card.image}"
+//       alt="image placeholder" />
+//   </div>
+//   <div >
+//     <p class="popText">
+//       ${card.popupText}
+//     </p>
+//   </div>
+//   <ul class="plang">
+//     ${card.cardLang} 
+//         <li class="pop-li unique">Github</li>
+//   </ul>
 
-  <ul class="plangmobile">
-   ${card.cardLang}
-        <li class="pop-li unique">css</li>
-  </ul>
-  <div class="buttonsPop">
-    <button type="button" class="seeProject1">
-      <a href="${card.live_project}">See Project</a>
-      <img
-        src="icons/live.png"
-        alt="live icon"
-        class="liveIcon"
-      />
-    </button>
-    <button type="button" class="seeProject1">
-     <a href="${card.source}"> See Source</a>
-      <img
-        src="icons/Vector.png"
-        alt="github link"
-        class="liveIcon"
-      />
-    </button>
-  </div>
-</div>
+//   <ul class="plangmobile">
+//    ${card.cardLang}
+//         <li class="pop-li unique">css</li>
+//   </ul>
+//   <div class="buttonsPop">
+//     <button type="button" class="seeProject1">
+//       <a href="${card.live_project}">See Project</a>
+//       <img
+//         src="icons/live.png"
+//         alt="live icon"
+//         class="liveIcon"
+//       />
+//     </button>
+//     <button type="button" class="seeProject1">
+//      <a href="${card.source}"> See Source</a>
+//       <img
+//         src="icons/Vector.png"
+//         alt="github link"
+//         class="liveIcon"
+//       />
+//     </button>
+//   </div>
+// </div>
   
-  `
-  const box = document.getElementById('hidden')
-  box.appendChild(temp.content)
-}
+//   `
+//   const box = document.getElementById('hidden')
+//   box.appendChild(temp.content)
+// }
 
 function modal(id){
   cardsinfo.find((card) => {
