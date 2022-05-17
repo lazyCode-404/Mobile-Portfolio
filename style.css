@@ -412,8 +412,9 @@ body {
   background-color: #191765;
   overflow-x: hidden;
   transition: 0.5s;
+  background-image: url(./bgimages/image-bg-1.png);
   background-position: left top;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
 }
 
 .overlay-content {

@@ -7,3 +7,12 @@ function openNav() {
   }
   closeNav();
 
+  /* eslint-disable */
+
+function menuOptions(param) {
+  window.location.href = param;
+  const links = document.getElementById('myNav');
+  closeNav();
+}
+
+
