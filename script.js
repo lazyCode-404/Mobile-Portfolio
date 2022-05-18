@@ -1,9 +1,9 @@
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById('myNav').style.width = '100%';
 }
 openNav();
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  document.getElementById('myNav').style.width = '0%';
 }
 closeNav();
 
@@ -11,20 +11,20 @@ closeNav();
 
 function menuOptions(param) {
   window.location.href = param;
-  const links = document.getElementById("myNav");
+  const links = document.getElementById('myNav');
   closeNav();
 }
 
 // form validation
-const form = document.querySelector(".conct-form");
+const form = document.querySelector('.conct-form');
 const emailInput = form.elements.email;
 
-const INPUT_LOWERCASE = "Error : Please enter a lowercase email input";
+const INPUT_LOWERCASE = 'Error : Please enter a lowercase email input';
 
 function showMessage(input, message, type) {
-  const msg = document.querySelector(".error-text");
+  const msg = document.querySelector('.error-text');
   msg.innerText = message;
-  input.className = type ? "success" : "error";
+  input.className = type ? 'success' : 'error';
   return type;
 }
 
@@ -38,11 +38,11 @@ function validateEmail(input, invalidLowercase) {
   }
   return showError(input, invalidLowercase);
 }
-
-form.addEventListener("submit", (e) => {
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
   if (emailValid) {
     form.submit();
   }
 });
+
