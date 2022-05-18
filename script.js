@@ -39,10 +39,12 @@ function validateEmail(input, invalidLowercase) {
   return showError(input, invalidLowercase);
 }
 
-form.addEventListener("submit", (e) => {
+});
+form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
   if (emailValid) {
     form.submit();
   }
 });
+
