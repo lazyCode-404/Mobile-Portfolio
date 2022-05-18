@@ -1,10 +1,10 @@
-# Portfolio: Mobile Menu
+# Portfolio: Form Validation
 
-> Portfolio: Mobile Menu Project For Microverse By Bwalya Nonde 
+> Portfolio: Form Validation Project For Microverse By Bwalya Nonde 
 
 > This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage. And JavaScript which is used for making the webpage responsive.
 
-![screenshot](./images/menu-bar.png)
+![screenshot](./images/email.png)
 
 
 ## Built With

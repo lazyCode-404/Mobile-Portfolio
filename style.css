@@ -32,7 +32,8 @@ html {
 }
 
 .input-media-q {
-  display: none;
+  text-align: center;
+  margin-left: 20px;
 }
 
 .envelop {
@@ -536,8 +537,24 @@ html {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .pop-up--overlay {
   display: none;
+=======
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #191765;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-image: url(./bgimages/image-bg-1.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+>>>>>>> main
 }
 
 /* foo */
@@ -629,6 +646,32 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.width {
+  width: 80%;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.error-message {
+  margin-top: 10px;
+}
+
+.error-text {
+  color: #ffd;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#email {
+  width: 80%;
+  height: 30px;
+  margin-top: 15px;
+}
+
+#textarea {
+  height: 150px;
 }
 
 @media screen and (min-width: 992px) {
@@ -1342,5 +1385,20 @@ html {
 @keyframes card-animation {
   5% {
     background-color: rgb(30, 172, 165);
+  }
+
+  .error-message {
+    margin-top: 10px;
+  }
+
+  .error-text {
+    color: #ffd;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  #email {
+    width: 100%;
+    height: 48px;
   }
 }

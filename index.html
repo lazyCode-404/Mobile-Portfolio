@@ -230,38 +230,48 @@
         action="https://formspree.io/f/meqnpkre"
         method="POST"
         class="conct-form"
+        id="contact-form"
       >
+        <div class="input-media-q">
+          <label for="name"></label>
           <input
             type="text"
-            class="height width mobilename"
-            name="Fullname"
+            id="name"
+            class="height width"
+            name="name"
             placeholder="Full name"
             maxlength="30"
             required
             id="#username"
           />
-          <br>
+          <br />
+          <label for="email"></label>
           <input
             type="email"
-            class="useremail width height mobileemail"
+            id="email"
             name="email"
             placeholder="Email address"
             maxlength="30"
             required
-          />
-    <br>
+          /><br />
+          <label for="textarea"></label>
           <textarea
             id= "messageForm"
             name="message"
+            id="textarea"
             class="usermessage width"
             placeholder="Write your message here"
             maxlength="500"
-            rows="5"
+            cols="100"
+            rows="30"
             required
           ></textarea>
-          <div class="errorEmail">       
+          <div class="error-message">
+            <small class="error-text" aria-live="polite"></small>
           </div>
-          <button class="buttonForm" type="submit">Send</button>
+          <button class="button" type="submit">Send</button>
+
+        </div>
       </form>
     </section>
     </div>
