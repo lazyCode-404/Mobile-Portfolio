@@ -33,7 +33,7 @@ const languages = (string1, string2, string3, string4) => `<li>${string1}</li>
 
 const cardsinfo = [
   {
-    reverseCard: 'kwacha',
+    reverseCard: 'row',
     cardName: 'Multi-Post Stories',
     mainText: `A daily selection of privately personalized reads; no accounts or
     sign-ups required. has been the industry's standard dummy text
@@ -55,7 +55,7 @@ const cardsinfo = [
 
   },
   {
-    reverseCard: 'kwacha',
+    reverseCard: 'row',
     cardName: 'Multi-Post Stories',
     mainText: `A daily selection of privately personalized reads; no accounts or
     sign-ups required. has been the industry's standard dummy text
