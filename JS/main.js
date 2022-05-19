@@ -112,15 +112,6 @@ const openbtn = document.querySelectorAll('.button');
 const closebtn = document.querySelector('.close-btn');
 // listen for click
 
-// display popup
-function openModal() {
-  circle1.classList.replace('show', 'hide');
-  circle2.classList.replace('show', 'hide');
-  popUp.classList.add('active');
-  if (popUp.classList.contains('active')) {
-    document.querySelector('body').style.overflow = 'hidden';
-  }
-}
 
 // close popup
 function closeModal() {
