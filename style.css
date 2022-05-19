@@ -32,8 +32,7 @@ html {
 }
 
 .input-media-q {
-  text-align: center;
-  margin-left: 20px;
+  display: none;
 }
 
 .envelop {
@@ -537,57 +536,437 @@ html {
   flex-direction: column;
 }
 
-head .pop-up--overlay {
+.pop-up--overlay {
   display: none;
+}
 
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #191765;
-    overflow-x: hidden;
-    transition: 0.5s;
-    background-image: url(./bgimages/image-bg-1.png);
-    background-position: left top;
-    background-repeat: no-repeat;
+/* foo */
+.projectTitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 12px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.pop-li {
+  border-left: solid 1px #81818c;
+  padding-left: 8px;
+}
+
+.popText {
+  width: 279px;
+  height: 289px;
+  color: #fff;
+}
+
+.pop-up-header {
+  display: flex;
+  gap: 113px;
+  align-items: center;
+  justify-content: center;
+}
+
+.seeProject1 {
+  display: flex;
+  width: 114px;
+  height: 45px;
+  color: #edecff;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  font-size: 12px;
+  margin-bottom: 40px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 24px;
+  margin-right: -300px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.plangmobile li {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  justify-content: space-between;
+  height: 20px;
+  left: 12px;
+  position: initial;
+  top: 10px;
+  margin: 0 14px;
+}
+
+.plangmobile {
+  bottom: 93px;
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+  color: #dcdce8;
+  padding-bottom: 43px;
+}
+
+.plang {
+  display: none;
+}
+
+.buttonsPop {
+  padding-right: 47%;
+}
+
+.bottom-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    margin: 0;
   }
 
-  /* foo */
-  .projectTitle {
+  .nav-buttons {
+    background-color: #e5e5e5;
+    display: flex;
+    display: block;
+    justify-content: flex-end;
+    list-style-type: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  .recent {
+    display: none;
+  }
+
+  .plangmobile {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .menuDropDown {
+    display: none;
+  }
+
+  .side-bar {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .icons {
+    margin-left: 70px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 28px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    height: 16px;
+    width: 20px;
+  }
+
+  .nav-li {
+    display: flex;
+    gap: 20px;
+    background-color: #191765;
+    padding-right: 5rem;
+  }
+
+  .headers h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-size: 90px;
+    line-height: 105px;
+    text-align: center;
+    color: #9391ff;
+    padding-bottom: 13%;
+    padding-top: -11%;
+    width: 1156px;
+    height: 96px;
+  }
+
+  .headers h2 {
+    width: 1156px;
+    height: 72px;
+    left: 0;
+    top: 120px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #dfe1e6;
+    margin: 24px 0;
+  }
+
+  .headers p {
+    position: static;
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
-    margin-bottom: 12px;
-    line-height: 28px;
-    color: #fff;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 0 0;
+    width: 447px;
+    height: 155px;
+    line-height: 32px;
+    color: #b3bac5;
+    padding-top: 8%;
   }
 
-  .pop-li {
-    border-left: solid 1px #81818c;
-    padding-left: 8px;
+  .line {
+    color: #646369;
+    height: 1px;
+    width: 448px;
+    margin-top: 50px;
   }
 
-  .popText {
-    width: 279px;
-    height: 289px;
-    color: #fff;
-  }
-
-  .pop-up-header {
+  .software {
     display: flex;
-    gap: 113px;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .blue1 {
+    display: flex;
+    padding-bottom: 24.5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    width: 106px;
+    height: 16px;
+    left: 8px;
+    top: 5.33px;
+    font-family: "Roboto", sans-serif;
+    line-height: 29px;
     align-items: center;
-    justify-content: center;
+    color: #9390ff;
   }
 
-  .seeProject1 {
+  .common-li {
     display: flex;
-    width: 114px;
-    height: 45px;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 25px;
+    align-items: center;
+    color: #f5f5ff;
+    font-size: 15px;
+    padding-bottom: 19px;
+  }
+
+  .height {
+    height: 48px;
+  }
+
+  .arrow1 {
+    display: block;
+  }
+
+  #arrow2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 0 400px;
+  }
+
+  .arrowicons {
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  .recent1 {
+    color: #9390ff;
+    font-weight: 700;
+    width: 444px;
+    height: 114px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 114px;
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 164px;
+  }
+
+  .line1 {
+    width: 1440px;
+    background: #3a3837;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .card-sec {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 30px;
+  }
+
+  .card1 {
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+
+  .reverse-row {
+    flex-direction: row-reverse;
+    padding-right: 70px;
+  }
+
+  .header hr {
+    width: 1156px;
+    border: 1px solid #646369;
+  }
+
+  .cardsection1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .post {
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    position: static;
+    width: 448px;
+    height: 105px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+  }
+
+  .lang-sec {
+    background-image: url(bgimages/btmimage.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: 0 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+
+  .lang {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .icons a {
+    color: #fff;
+  }
+
+  .nav i {
+    font-size: 25px;
+    color: #fff;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60%;
+    background-color: #191765;
+    margin-top: 0;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text {
+    font-size: 20px;
+    font-weight: 400;
+    top: 129px;
+    position: static;
+    width: 448px;
+    height: 140px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    color: #dfe1e6;
+  }
+
+  .lang li {
+    border-right: solid 1px #555;
+    padding: 10px 12px;
+    font-size: 15px;
+    color: #dcdce8;
+  }
+
+  .lang li.ruby {
+    border-right: none;
+  }
+
+  .button {
+    background: #7d73fc;
+    width: 107px;
+    height: 40px;
+    color: #edecff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    position: static;
+    left: 12px;
+    top: 12px;
+  }
+
+  .button1 {
+    background: #7d73fc;
+    width: 94px;
+    height: 48px;
+    padding: 12px 12px;
     color: #edecff;
     font-style: normal;
     font-weight: 500;
@@ -598,15 +977,301 @@ head .pop-up--overlay {
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 24px;
-    margin-right: -300px;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px;
+  }
+
+  .arrow-icons {
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+  }
+
+  .button1:hover {
     background: #7d73fc;
     box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .plangmobile li {
+  .button1:active {
+    background: #5e42d7;
+  }
+
+  .button1:disabled {
+    background: #2a2b33;
+  }
+
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact1 {
+    color: #9390ff;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    width: 684px;
+    height: 56px;
+    left: 0;
+    top: 0;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ebebff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    flex: none;
+    flex-grow: 0;
+    position: static;
+    width: 684px;
+    height: 61px;
+    left: 0;
+    top: 80px;
+  }
+
+  .conct-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+  }
+
+  .input-media-q {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 50px;
+  }
+
+  .mail-to {
+    display: flex;
+    justify-content: center;
+    height: 29px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    position: static;
+    width: 221px;
+    left: 200px;
+    top: 5.5px;
+  }
+
+  .buttonForm {
+    background: #7d73fc;
+    width: 107px;
+    height: 40px;
+    color: #edecff;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 40px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    position: static;
+    left: 12px;
+    top: 12px;
+  }
+
+  .width {
+    width: 684px;
+  }
+
+  .logo {
+    padding-left: 5rem;
+  }
+
+  .contactInfo-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pop-up--overlay {
+    display: none;
+  }
+
+  .pop-up--overlay.active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(25, 23, 101, 0.9);
+    border: 1px solid #fff;
+    box-shadow: 0 48px 48px rgba(39, 50, 145, 0.08);
+    overflow: auto;
+  }
+
+  .pop-up-box {
+    margin: 20px auto;
+    height: 1176px;
+    width: 1156px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.18);
+    border: 1px solid #fff;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .pop-li {
+    border-left: solid 1px #81818c;
+    padding: 0 12px;
+  }
+
+  .projectTitle {
+    position: static;
+    width: 1056px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 12px;
+  }
+
+  .popImage {
+    width: 1108px;
+    height: 505px;
+  }
+
+  .popText {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 789px;
+    height: 236px;
+    left: 0;
+    top: 0;
+    padding: 111px 95px 351px 95px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 55px 66px -108px 60px;
+  }
+
+  .pop-up-header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+    margin-left: -26px;
+  }
+
+  .close-btn {
+    font-size: 40px;
+    color: #67798e;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    right: 0;
+    border-radius: 8px;
+    flex: none;
+    flex-grow: 0;
+    margin: 0 12px;
+    cursor: pointer;
+  }
+
+  .seeProject1 {
+    display: flex;
+    width: 120px;
+    height: 50px;
+    color: #edecff;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    margin-left: 325px;
+    margin-right: -190px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    background: #7d73fc;
+  }
+
+  .seeProject {
+    display: flex;
+    width: 120px;
+    height: 50px;
+    color: #edecff;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px;
+    background: #7d73fc;
+  }
+
+  .liveIcon {
+    display: inline;
+  }
+
+  .unique {
+    border-right: solid 1px #81818c;
+  }
+
+  .plang li {
     display: flex;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -622,782 +1287,60 @@ head .pop-up--overlay {
     margin: 0 14px;
   }
 
-  .plangmobile {
-    bottom: 93px;
+  .plang {
     justify-content: center;
+    padding: 10px 12px;
     display: flex;
     font-size: 15px;
     color: #dcdce8;
-    padding-bottom: 43px;
-  }
-
-  .plang {
-    display: none;
+    flex-direction: row;
+    bottom: -27px;
   }
 
   .buttonsPop {
-    padding-right: 47%;
-  }
-
-  .bottom-icons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
   }
 
-  .width {
-    width: 80%;
-    height: 30px;
-    margin-top: 15px;
+  .placeholder1 {
+    padding-top: 20px;
   }
 
-  .error-message {
-    margin-top: 10px;
+  .circle1 {
+    width: 184px;
+    height: 184px;
+    background: #edecff;
+    border-radius: 50%;
+    position: absolute;
+    top: 237px;
+    left: 69px;
+    z-index: -1;
+    filter: blur(50px);
   }
 
-  .error-text {
-    color: #ffd;
-    margin-top: 20px;
-    font-size: 16px;
+  .circle2 {
+    width: 226px;
+    height: 226px;
+    background: #edecff;
+    border-radius: 50%;
+    position: absolute;
+    top: 546px;
+    right: 116px;
+    z-index: -1;
+    filter: blur(50px);
   }
-
-  #email {
-    width: 80%;
-    height: 30px;
-    margin-top: 15px;
-  }
-
-  #textarea {
-    height: 150px;
-  }
-
-  @media screen and (min-width: 992px) {
-    body {
-      margin: 0;
-    }
-
-    .nav-buttons {
-      background-color: #e5e5e5;
-      display: flex;
-      display: block;
-      justify-content: flex-end;
-      list-style-type: none;
-      color: inherit;
-      border: none;
-      padding: 0;
-      font: inherit;
-      cursor: pointer;
-      outline: inherit;
-    }
-
-    .recent {
-      display: none;
-    }
-
-    .plangmobile {
-      display: none;
-    }
-
-    .mobile {
-      display: none;
-    }
-
-    .menuDropDown {
-      display: none;
-    }
-
-    .side-bar {
-      display: none;
-    }
-
-    .contact {
-      display: none;
-    }
-
-    .icons {
-      margin-left: 70px;
-      margin-right: 100px;
-      padding-bottom: 30px;
-      margin-bottom: 20px;
-      margin-top: 28px;
-      display: flex;
-      gap: 15px;
-      justify-content: center;
-      height: 16px;
-      width: 20px;
-    }
-
-    .nav-li {
-      display: flex;
-      gap: 20px;
-      background-color: #191765;
-      padding-right: 5rem;
-    }
-
-    .headers h1 {
-      font-style: normal;
-      font-weight: 700;
-      font-family: "Roboto", sans-serif;
-      font-size: 90px;
-      line-height: 105px;
-      text-align: center;
-      color: #9391ff;
-      padding-bottom: 13%;
-      padding-top: -11%;
-      width: 1156px;
-      height: 96px;
-    }
-
-    .headers h2 {
-      width: 1156px;
-      height: 72px;
-      left: 0;
-      top: 120px;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 40px;
-      line-height: 47px;
-      text-align: center;
-      color: #dfe1e6;
-      margin: 24px 0;
-    }
-
-    .headers p {
-      position: static;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      font-family: "Roboto", sans-serif;
-      text-align: center;
-      padding: 0 0;
-      width: 447px;
-      height: 155px;
-      line-height: 32px;
-      color: #b3bac5;
-      padding-top: 8%;
-    }
-
-    .line {
-      color: #646369;
-      height: 1px;
-      width: 448px;
-      margin-top: 50px;
-    }
-
-    .software {
-      display: flex;
-      margin-top: 75px;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-
-    .blue1 {
-      display: flex;
-      padding-bottom: 24.5px;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      width: 106px;
-      height: 16px;
-      left: 8px;
-      top: 5.33px;
-      font-family: "Roboto", sans-serif;
-      line-height: 29px;
-      align-items: center;
-      color: #9390ff;
-    }
-
-    .common-li {
-      display: flex;
-      flex-direction: row;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      margin-bottom: 5px;
-      line-height: 25px;
-      align-items: center;
-      color: #f5f5ff;
-      font-size: 15px;
-      padding-bottom: 19px;
-    }
-
-    .height {
-      height: 48px;
-    }
-
-    .arrow1 {
-      display: block;
-    }
-
-    #arrow2 {
-      display: flex;
-      justify-content: flex-end;
-      padding: 0 0 0 400px;
-    }
-
-    .arrowicons {
-      display: flex;
-      display: inline-block;
-      flex-direction: row;
-    }
-
-    .recent1 {
-      color: #9390ff;
-      font-weight: 700;
-      width: 444px;
-      height: 114px;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-size: 64px;
-      line-height: 114px;
-      display: flex;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 24px 164px;
-    }
-
-    .line1 {
-      width: 1440px;
-      background: #3a3837;
-      height: 1px;
-      left: 0;
-      right: 0;
-      top: 0;
-    }
-
-    .card-sec {
-      display: flex;
-      margin-bottom: 10px;
-      padding: 10px 10px 10px 30px;
-    }
-
-    .card1 {
-      margin-left: 50px;
-      margin-right: 20px;
-    }
-
-    .reverse-row {
-      flex-direction: row-reverse;
-      padding-right: 70px;
-    }
-
-    .header hr {
-      width: 1156px;
-      border: 1px solid #646369;
-    }
-
-    .cardsection1 {
-      display: flex;
-      flex-direction: row-reverse;
-    }
-
-    .post {
-      color: #fff;
-      font-weight: 700;
-      font-style: normal;
-      position: static;
-      width: 448px;
-      height: 105px;
-      font-family: "Roboto", sans-serif;
-      font-size: 40px;
-      line-height: 52px;
-      display: flex;
-      align-items: center;
-    }
-
-    .lang-sec {
-      background-image: url(bgimages/btmimage.png);
-      background-repeat: no-repeat;
-      display: flex;
-      background-position: 0 0;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 25px;
-    }
-
-    .lang {
-      display: flex;
-      gap: 10px;
-      margin: 0;
-      padding: 0;
-      width: 24px;
-      height: 20px;
-      left: 12px;
-      top: 10px;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 20px;
-    }
-
-    .icons a {
-      color: #fff;
-    }
-
-    .nav i {
-      font-size: 25px;
-      color: #fff;
-    }
-
-    .nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 60%;
-      background-color: #191765;
-      margin-top: 0;
-    }
-
-    .section1 {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .text {
-      font-size: 20px;
-      font-weight: 400;
-      top: 129px;
-      position: static;
-      width: 448px;
-      height: 140px;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      line-height: 28px;
-      color: #dfe1e6;
-    }
-
-    .lang li {
-      border-right: solid 1px #555;
-      padding: 10px 12px;
-      font-size: 15px;
-      color: #dcdce8;
-    }
-
-    .lang li.ruby {
-      border-right: none;
-    }
-
-    .button {
-      background: #7d73fc;
-      width: 107px;
-      height: 40px;
-      color: #edecff;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      border: none;
-      font-size: 15px;
-      margin-bottom: 40px;
-      line-height: 17px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin-top: 24px;
-      position: static;
-      left: 12px;
-      top: 12px;
-    }
-
-    .button1 {
-      background: #7d73fc;
-      width: 94px;
-      height: 48px;
-      padding: 12px 12px;
-      color: #edecff;
-      font-style: normal;
-      font-weight: 500;
-      border: none;
-      font-size: 12px;
-      margin-bottom: 40px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin-top: 24px;
-    }
-
-    .arrow-icons {
-      display: flex;
-      align-items: center;
-      gap: 20rem;
-    }
-
-    .button1:hover {
-      background: #7d73fc;
-      box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-    }
-
-    .button1:active {
-      background: #5e42d7;
-    }
-
-    .button1:disabled {
-      background: #2a2b33;
-    }
-
-    .contactInfo {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .contact1 {
-      color: #9390ff;
-      font-weight: 700;
-      font-style: normal;
-      font-size: 40px;
-      justify-content: center;
-      text-align: center;
-      width: 684px;
-      height: 56px;
-      left: 0;
-      top: 0;
-      font-family: "Roboto", sans-serif;
-      line-height: 24px;
-      display: flex;
-      align-items: center;
-    }
-
-    .contact-text {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      color: #ebebff;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      flex: none;
-      flex-grow: 0;
-      position: static;
-      width: 684px;
-      height: 61px;
-      left: 0;
-      top: 80px;
-    }
-
-    .conct-form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 327px;
-    }
-
-    .input-media-q {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 88px;
-      margin-bottom: 50px;
-    }
-
-    .mail-to {
-      display: flex;
-      justify-content: center;
-      height: 29px;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-      color: #ebebff;
-      position: static;
-      width: 221px;
-      left: 200px;
-      top: 5.5px;
-    }
-
-    .buttonForm {
-      background: #7d73fc;
-      width: 107px;
-      height: 40px;
-      color: #edecff;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      border: none;
-      font-size: 15px;
-      margin-bottom: 40px;
-      line-height: 17px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin-top: 24px;
-      position: static;
-      left: 12px;
-      top: 12px;
-    }
-
-    .width {
-      width: 684px;
-    }
-
-    .logo {
-      padding-left: 5rem;
-    }
-
-    .contactInfo-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .bottom-icons {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .pop-up--overlay {
-      display: none;
-    }
-
-    .pop-up--overlay.active {
-      display: block;
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(25, 23, 101, 0.9);
-      border: 1px solid #fff;
-      box-shadow: 0 48px 48px rgba(39, 50, 145, 0.08);
-      overflow: auto;
-    }
-
-    .pop-up-box {
-      margin: 20px auto;
-      height: 1176px;
-      width: 1156px;
-      left: 0;
-      top: 0;
-      border-radius: 0;
-      bottom: 0;
-      background-color: rgba(255, 255, 255, 0.18);
-      border: 1px solid #fff;
-      box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    }
-
-    .pop-li {
-      border-left: solid 1px #81818c;
-      padding: 0 12px;
-    }
-
-    .projectTitle {
-      position: static;
-      width: 1056px;
-      height: 48px;
-      left: 0;
-      top: 0;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 40px;
-      line-height: 32px;
-      display: flex;
-      align-items: center;
-      color: #fff;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
-      margin: 0 12px;
-    }
-
-    .popImage {
-      width: 1108px;
-      height: 505px;
-    }
-
-    .popText {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      width: 789px;
-      height: 236px;
-      left: 0;
-      top: 0;
-      padding: 111px 95px 351px 95px;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 30px;
-      text-align: justify;
-      align-items: center;
-      color: rgb(255, 255, 255);
-      margin: 55px 66px -108px 60px;
-    }
-
-    .pop-up-header {
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1px;
-      margin-left: -26px;
-    }
-
-    .close-btn {
-      font-size: 40px;
-      color: #67798e;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 8px;
-      width: 40px;
-      height: 40px;
-      right: 0;
-      border-radius: 8px;
-      flex: none;
-      flex-grow: 0;
-      margin: 0 12px;
-      cursor: pointer;
-    }
-
-    .seeProject1 {
-      display: flex;
-      width: 120px;
-      height: 50px;
-      color: #edecff;
-      font-style: normal;
-      font-weight: 500;
-      border: none;
-      font-size: 12px;
-      margin-bottom: 40px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin-top: 24px;
-      margin-left: 325px;
-      margin-right: -190px;
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 12px;
-      background: #7d73fc;
-    }
-
-    .seeProject {
-      display: flex;
-      width: 120px;
-      height: 50px;
-      color: #edecff;
-      font-style: normal;
-      font-weight: 500;
-      border: none;
-      font-size: 12px;
-      margin-bottom: 40px;
-      line-height: 24px;
-      text-align: center;
-      letter-spacing: 0.03em;
-      margin-top: 24px;
-      flex-direction: row;
-      align-items: flex-start;
-      padding: 12px;
-      background: #7d73fc;
-    }
-
-    .liveIcon {
-      display: inline;
-    }
-
-    .unique {
-      border-right: solid 1px #81818c;
-    }
-
-    .plang li {
-      display: flex;
-      font-family: "Roboto", sans-serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 20px;
-      color: #fff;
-      justify-content: space-between;
-      height: 20px;
-      left: 12px;
-      position: initial;
-      top: 10px;
-      margin: 0 14px;
-    }
-
-    .plang {
-      justify-content: center;
-      padding: 10px 12px;
-      display: flex;
-      font-size: 15px;
-      color: #dcdce8;
-      flex-direction: row;
-      bottom: -27px;
-    }
-
-    .buttonsPop {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
-
-    .placeholder1 {
-      padding-top: 20px;
-    }
-
-    .circle1 {
-      width: 184px;
-      height: 184px;
-      background: #edecff;
-      border-radius: 50%;
-      position: absolute;
-      top: 237px;
-      left: 69px;
-      z-index: -1;
-      filter: blur(50px);
-    }
-
-    .circle2 {
-      width: 226px;
-      height: 226px;
-      background: #edecff;
-      border-radius: 50%;
-      position: absolute;
-      top: 546px;
-      right: 116px;
-      z-index: -1;
-      filter: blur(50px);
-    }
-  }
-
-  .card-sec {
-    width: 100%;
-    height: 100%;
-    animation-name: card-animation;
-    animation-duration: 8s;
-  }
-
-  @keyframes card-animation {
-    5% {
-      background-color: rgb(30, 172, 165);
-    }
-
-    .error-message {
-      margin-top: 10px;
-    }
-
-    .error-text {
-      color: #ffd;
-      margin-top: 20px;
-      font-size: 16px;
-    }
-
-    #email {
-      width: 100%;
-      height: 48px;
-    }
+}
+
+.card-sec {
+  width: 100%;
+  height: 100%;
+  animation-name: card-animation;
+  animation-duration: 8s;
+}
+
+@keyframes card-animation {
+  5% {
+    background-color: rgb(30, 172, 165);
   }
 }
