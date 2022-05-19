@@ -36,7 +36,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Bwalya's Portfolio</title>
+    <title>Nicholas Mutale's Portfolio</title>
   </head>
 
   <body>    
@@ -52,8 +52,8 @@
       <nav class="nav-buttons">
         <ul class="nav-li">
           <li><a href="#Portfolio">Portfolio</a></li>
-          <li><a href="#About">About</a></li>
           <li><a href="#Contact">Contact</a></li>
+          <li><a href="#About">About</a></li>
           <li>
             <i class="far fa-envelope"></i>
           </li>
@@ -70,16 +70,16 @@
             /></a>
           </li>
           <li class="entity">
-            <a href="#About"
-              >About<img
+            <a href="#Contact"
+              >Contact<img
                 src="bgimages/chevron.png"
                 class="chevron"
                 alt="chevron"
             /></a>
           </li>
           <li class="entity">
-            <a href="#Contact"
-              >Contact<img
+            <a href="#About"
+              >About<img
                 src="bgimages/chevron.png"
                 class="chevron"
                 alt="chevron"
@@ -227,51 +227,41 @@
       </div>
       <form
         id = "formdata"
-        action="https://formspree.io/f/meqnpkre"
+        action="https://formspree.io/f/xeqnejgd"
         method="POST"
         class="conct-form"
-        id="contact-form"
       >
-        <div class="input-media-q">
-          <label for="name"></label>
           <input
             type="text"
-            id="name"
-            class="height width"
-            name="name"
+            class="height width mobilename"
+            name="Fullname"
             placeholder="Full name"
             maxlength="30"
             required
             id="#username"
           />
-          <br />
-          <label for="email"></label>
+          <br>
           <input
             type="email"
-            id="email"
+            class="useremail width height mobileemail"
             name="email"
             placeholder="Email address"
             maxlength="30"
             required
-          /><br />
-          <label for="textarea"></label>
+          />
+    <br>
           <textarea
             id= "messageForm"
             name="message"
-            id="textarea"
             class="usermessage width"
             placeholder="Write your message here"
             maxlength="500"
-            cols="100"
-            rows="30"
+            rows="5"
             required
           ></textarea>
-          <div class="error-message">
-            <small class="error-text" aria-live="polite"></small>
+          <div class="errorEmail">       
           </div>
-          <button class="button" type="submit">Send</button>
-
-        </div>
+          <button class="buttonForm" type="submit">Send</button>
       </form>
     </section>
     </div>
@@ -294,7 +284,7 @@
           <img src="icons/medium.png" alt="medium icon" />
         </li>
       </ul>
-      <div class="mail-to">bwalyanonde8@gmail.com</div>
+      <div class="mail-to">nicomutale@gmail.com</div>
     </div>
 
     <script src="./JS/main.js"></script>
