@@ -4,289 +4,351 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Bwalya's Portfolio</title>
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script
-      src="https://kit.fontawesome.com/6dc26eb6e2.js"
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
       crossorigin="anonymous"
-    ></script>
-
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      crossorigin="anonymous"
       rel="stylesheet"
     />
-    <title>Bwalya Nonde's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEV5VTLPZB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-WEV5VTLPZB');
+    </script>
   </head>
-
   <body>
-    <header class="nav">
-      <a class="logo" href="#">Bwalya Nonde</a>
-      <div id="myNav" class="overlay">
-        <div class="x-btn">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        </div>
-        <div class="overlay-content">
-          <a href="javascript:void(0);" class="nav-link" onclick="menuOptions('#portfolio')">Portfolio<i class="fa fa-angle-right"></i></a>
-          <a href="javascript:void(0);" class="nav-link" onclick="menuOptions('#about')">About<i class="fa fa-angle-right"></i></a>
-          <a href="javascript:void(0);" class="nav-link" onclick="menuOptions('#contact-us')">Contact<i class="fa fa-angle-right"></i></a>
-        </div>
-      </div>
-      <span class="openNav" onclick="openNav()">&#9776; </span>
-      <div class="overlay-content-1">
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-        <a href="#">About</a>
-      </div>
-    </header>
-    <section class="headers">
-      <h1>Bwalya Nonde</h1>
-      <h2 id="portfolio">Software Developer</h2>
-      <p>
-        I can help you build a product , feature or website. Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hestiate to contact me.
-      </p>
-      <hr class="line" />
-      <div class="software">
-        <ul>
-          <li class="blue1">Language</li>
-          <li class="common-li">JavaScript</li>
-          <li class="common-li">Ruby</li>
-          <li class="common-li">Html</li>
-          <li class="common-li">CSS</li>
-        </ul>
-        <ul>
-          <li class="blue1">Frameworks</li>
-          <li class="common-li">Bootstrap</li>
-          <li class="common-li">Ruby on Rails</li>
-          <li class="common-li">RSPec</li>
-          <li class="common-li">CapyBara</li>
-          <li class="common-li">Selenium</li>
-        </ul>
-        <ul>
-          <li class="blue1">Skills</li>
-          <li class="common-li">CodeKit</li>
-          <li class="common-li">GitHub</li>
-          <li class="common-li">CodePen</li>
-          <li class="common-li">GitLab</li>
-          <li class="common-li">Terminal</li>
-        </ul>
-      </div>
-      <hr class="line" />
-      <div class="arrow-icons">
-        <div class="arrow1">&#8595; Work</div>
-        <ul class="icons">
-          <li>
-            <img src="icons/gitHub.png" alt="github icon" />
-          </li>
-          <li>
-            <img src="icons/linkedin.png" alt="linkedin icon" />
-          </li>
-          <li>
-            <img src="icons/angelist.png" alt="angelist icon" />
-          </li>
-          <li>
-            <img src="icons/twitter.png" alt="twitter icon" />
-          </li>
-          <li>
-            <img src="icons/medium.png" alt="medium icon" />
-          </li>
-        </ul>
-        <div class="arrow1 arrow-m">&#8595; Work</div>
-      </div>
-    </section>
-    <section class="header">
-      <h2 class="recent" id="about">MY RECENT WORK</h2>
-      <h2 class="recent1">My recent work</h2>
-      <hr class="line1" />
-      <ul class="lang-sec">
-        <li class="card-sec">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
+    <div class="wrapper">
+      <header class="container header">
+        <div class="flex-wrapper">
+          <h2 class="logo-name">
+            <a href="#" class="logo">Bwalya Nonde</a>
+          </h2>
+          <nav>
+            <ul class="nav-ul">
+              <li>
+                <a href="#" class="bar-menu" title="bar-menu"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#portfolio" class="mobile-hidden-menu" title="bar-menu"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="mobile-hidden-menu" title="bar-menu"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="mobile-hidden-menu" title="bar-menu"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="mobile-hidden-menu" title="bar-menu"
+                  ><i class="far fa-envelope"></i
+                ></a>
+              </li>
             </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
-        <li class="reverse-row">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
-        <li class="card-sec">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
-            </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
 
-        <li class="reverse-row">
-          <div class="placeholder1">
-            <img
-              class="image1"
-              src="./placeholder.png"
-              alt="image placeholder"
-            />
-          </div>
-          <div class="card1">
-            <h2 class="post">Multi-Post Stories</h2>
-            <p class="text">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required. has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a standard
-              dummy text.
-            </p>
-            <ul class="lang">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="ruby">Ruby</li>
+            <ul id="menu" class="mobile-ul">
+              <li class="times">
+                <a id="closeIcon"><i class="fas fa-times"></i></a>
+              </li>
+              <li class="mobile-menu">
+                <a href="#portfolio"
+                  ><span>Portfolio</span> <span class="arrows">></span></a
+                >
+              </li>
+              <li class="mobile-menu">
+                <a href="#about"
+                  ><span>About</span> <span class="arrows">></span></a
+                >
+              </li>
+              <li class="mobile-menu">
+                <a href="#contact"
+                  ><span>Contact</span><span class="arrows">></span></a
+                >
+              </li>
             </ul>
-            <button class="button" type="button">See Project</button>
-          </div>
-        </li>
-      </ul>
-    </section>
-    <section class="footer">
-      <div class="footer-text" id="contact-us">
-        <h2 class="contact">CONTACT US</h2>
-        <h2 class="contact1">Let’s chat!</h2>
-        <p class="contact-text">
-          &nbsp;&nbsp;&nbsp;If you have an application you are interested in
-          developing, a feature that you need built or a project that needs
-          coding. I’d love to help with it
-        </p>
-      </div>
-      <form
-        action="https://formspree.io/f/meqnpkre"
-        method="post"
-        class="conct-form"
-        id="contact-form"
-      >
-        <div class="input-media-q">
-          <label for="name"></label>
-          <input
-            type="text"
-            id="name"
-            class="height width"
-            name="name"
-            placeholder="Full name"
-            maxlength="30"
-            required
-          />
-          <br />
-          <label for="email"></label>
-          <input
-            class="width height"
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email address"
-            required
-          /><br />
-          <label for="textarea"></label>
-          <textarea
-            name="message"
-            id="textarea"
-            class="usermessage width"
-            placeholder="Write your message here"
-            maxlength="500"
-            cols="100"
-            rows="30"
-            required
-          ></textarea>
-          <div class="error-message">
-            <small class="error-text" aria-live="polite"></small>
-          </div>
-          <button class="button" type="submit">Send</button>
-
+          </nav>
         </div>
-      </form>
-    </section>
-    <hr class="line1" />
-    <div class="bottom-icons">
-      <ul class="icons">
-        <li>
-          <img src="icons/gitHub.png" alt="github icon" />
-        </li>
-        <li>
-          <img src="icons/linkedin.png" alt="linkedin icon" />
-        </li>
-        <li>
-          <img src="icons/angelist.png" alt="angelist icon" />
-        </li>
-        <li>
-          <img src="icons/twitter.png" alt="twitter icon" />
-        </li>
-        <li>
-          <img src="icons/medium.png" alt="medium icon" />
-        </li>
-      </ul>
-      <div class="mail-to">bwalyanonde@gmail.com</div>
+      </header>
+      <div class="bgImage">
+        <section class="container headline" id="about">
+          <h1>Bwalya Nonde</h1>
+          <h2>Software Developer</h2>
+          <div class="about-wrapper">
+            <p>
+              I can help you build a product , feature or website Look through
+              some of my work a nd experience! If you like what you see and have
+              a project you need coded, don’t hesitate to contact me.
+            </p>
+            <hr />
+            <div class="info-wrapper">
+              <ul>
+                <li class="list-header">Language</li>
+                <li class="list">JavaScript</li>
+                <li class="list">HTML</li>
+                <li class="list">CSS</li>
+              </ul>
+              <ul>
+                <li class="list-header">Frameworks</li>
+                <li class="list">Bootstrap</li>
+                <li class="list">React/Redux</li>
+                <li class="list">preprocessor:</li>
+                <li class="list">Sass</li>
+              </ul>
+              <ul>
+                <li class="list-header">Skills</li>
+                <li class="list">Github</li>
+                <li class="list">VScode</li>
+                <li class="list">Git</li>
+                <li class="list">Terminal</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="flex-icons">
+            <div class="work-image-icons">
+              <img src="Group55.png" alt="down-arrow" />
+              <a href="#" class="work-image">Work</a>
+            </div>
+            <ul>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/bwalya-nonde-5865601a9/" title="icons"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-angellist"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-medium-m"></i></a>
+              </li>
+            </ul>
+            <div class="work-image-icons">
+              <img src="Group55.png" alt="down-arrow" />
+              <a href="#" class="work-image">Work</a>
+            </div>
+            <div class="work-images">
+              <img class="arrow" src="Group55.png" alt="down-arrow" />
+              <a href="#" class="work-image">Work</a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="work-popup"></section>
+      <div class="works-wrapper">
+        <div class="bgimage2">
+          <section class="container works" id="portfolio">
+            <h2 class="works-h2">My Recent Work</h2>
+            <hr />
+            <div class="container image-stories">
+              <img
+                class="placeholder"
+                src="placeholder.png"
+                alt="image-placeholder"
+                id="first-img"
+              />
+              <div class="stories">
+                <h3>Multi-Post Stories</h3>
+                <p>
+                  A daily selection of privately personalized reads;
+                  no accounts or sign-ups required. has been the industry's standard
+                  dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">CSS</li>
+                  <li class="vl"></li>
+                  <li class="item1">HTML</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+            <div class="container image-stories reverse">
+              <img
+                class="placeholder"
+                src="placeholder.png"
+                alt="image-placeholder"
+              />
+              <div class="stories">
+                <h3>Multi-Post Stories</h3>
+                <p>
+                  A daily selection of privately personalized reads;
+                  no accounts or sign-ups required. has been the industry's standard
+                  dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">CSS</li>
+                  <li class="vl"></li>
+                  <li class="item1">HTML</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+            <div class="container image-stories">
+              <img
+                class="placeholder"
+                src="placeholder.png"
+                alt="image-placeholder"
+              />
+              <div class="stories">
+                <h3>Multi-Post Stories</h3>
+                <p>
+                  A daily selection of privately personalized reads;
+                  no accounts or sign-ups required. has been the industry's standard
+                  dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">CSS</li>
+                  <li class="vl"></li>
+                  <li class="item1">HTML</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+            <div class="container image-stories reverse">
+              <img
+                class="placeholder"
+                src="placeholder.png"
+                alt="image-placeholder"
+              />
+              <div class="stories">
+                <h3>Multi-Post Stories</h3>
+                <p>
+                  A daily selection of privately personalized reads;
+                  no accounts or sign-ups required. has been the industry's standard
+                  dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">CSS</li>
+                  <li class="vl"></li>
+                  <li class="item1">Redux</li>
+                  <li class="vl"></li>
+                  <li class="item1">React</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <footer class="container" id="contact">
+          <h2 id="conttitle">CONTACT ME</h2>
+          <p id="conttext">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form
+            action="https://formspree.io/f/xqkwjgqg"
+            method="POST"
+            id="form"
+          >
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your full name"
+              maxlength="30"
+              required
+            />
+            <div class="error"></div>
+            <input
+              type="email"
+              id="email"
+              placeholder="jondoe@mail.com"
+              required
+            />
+            <div class="error"></div>
+            <textarea
+              name="text"
+              id="textarea"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <button type="submit" id="lastbtn">Send</button>
+          </form>
+          <hr class="last-hr" />
+          <div class="flex-icons last">
+            <ul id="lastul">
+              <li>
+                <a
+                  class="social"
+                  href="https://github.com/BwalyaNonde"
+                  title="icons"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social"
+                  href="https://www.linkedin.com/in/bwalya-nonde-5865601a9/"
+                  title="icons"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social" href="#" title="icons"
+                  ><i class="fab fa-angellist"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social" href="#" title="icons"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social" href="#" title="icons"
+                  ><i class="fab fa-medium-m"></i
+                ></a>
+              </li>
+            </ul>
+            <p id="mymail">bwalyanonde8@gmail.com</p>
+          </div>
+        </footer>
+      </div>
     </div>
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
