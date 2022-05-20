@@ -1,3 +1,5 @@
+const { Button } = require("bootstrap");
+
 const menuActive = document.querySelector('.menuDropDown');
 const menuCross = document.querySelector('.menu-cross');
 const sideBar = document.querySelector('.side-bar');
@@ -5,6 +7,7 @@ const links = document.querySelectorAll('.entity');
 const popUp = document.querySelector('.pop-up--overlay');
 const circle1 = document.querySelector('.circle1');
 const circle2 = document.querySelector('.circle2');
+const live_link = document.querySelector('.live-link');
 
 menuActive.addEventListener('click', () => {
   sideBar.classList.add('active');
@@ -132,6 +135,13 @@ openbtn.forEach((btn) => {
   btn.addEventListener('click', openModal);
 });
 closebtn.addEventListener('click', closeModal);
+
+Button.addEventListener('click', () => {
+  openModal();
+  changeopenModal(1);
+  live_link.setAttribute('href', 'https://bwalyanonde.github.io/Mobile-Portfolio/');
+});
+
 
 // email validation
 const formEmail = document.querySelector('.conct-form');
