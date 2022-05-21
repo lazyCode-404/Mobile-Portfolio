@@ -8,7 +8,7 @@ body {
 
 .wrapper {
   min-width: 375px;
-  background-image: url(images/topcircles.png);
+  background-image: url(topcircles.png);
   background-color: #191765;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,7 +65,7 @@ a {
   background-color: #191765;
   position: fixed;
   z-index: 999;
-  background-image: url(./images/mobileMenu2.svg);
+  background-image: url(mobileMenu2.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -579,14 +579,14 @@ form :last-child {
   }
 
   .bgImage {
-    background-image: url(images/circlesheader.png);
+    background-image: url(circlesheader.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
 
   .bgimage2 {
-    background-image: url(images/Group65.svg);
+    background-image: url(Group65.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -717,7 +717,7 @@ form :last-child {
   }
 
   .work-popup {
-    background-image: url(images/circlesheader.png);
+    background-image: url(circlesheader.png);
     background-size: contain;
     background-repeat: no-repeat;
   }
