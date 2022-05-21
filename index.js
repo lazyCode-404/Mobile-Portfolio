@@ -26,10 +26,10 @@ for (let i = 0; i < menuLists.length; i += 1) {
 const projects = [
   {
     id: 0,
-    name: 'Yoga Retreat',
+    name: 'Multi-Post Stories',
     description:
-      'This is my first capstone project in Microverse. A website is about fictional yoga retreat that would be held in Thailand. The Project is responsive and fits all the screen sizes.',
-    img: 'images/popup.png',
+      'A daily selection of privately personalized reads no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    img: 'popup.png',
     language1: 'CSS',
     language2: 'HTML',
     language3: 'Bootstrap',
@@ -39,10 +39,10 @@ const projects = [
   },
   {
     id: 1,
-    name: 'To-Do-App',
+    name: 'Multi-Post Stories',
     description:
-      'In this project was built a simple list of To Do tasks. The user can add, edit, check completed and delete the tasks. This simple web page was built using webpack and served by a webpack dev server.',
-    img: 'images/popup.png',
+      'A daily selection of privately personalized reads no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    img: 'popup.png',
     language1: 'CSS',
     language2: 'HTML',
     language3: 'bootstrap',
@@ -52,10 +52,10 @@ const projects = [
   },
   {
     id: 2,
-    name: 'API-based-webapp',
+    name: 'Multi-Post Stories',
     description:
-      'This group project is about building our own web application based on an external API which in this case is NASA API portal. This website helps with discoverability of relevant Astronomy Picture of the Day. User can interact with the website through the likes and comments',
-    img: 'images/popup.png',
+      'A daily selection of privately personalized reads no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    img: 'popup.png',
     language1: 'CSS',
     language2: 'HTML',
     language3: 'bootstrap',
@@ -65,10 +65,10 @@ const projects = [
   },
   {
     id: 3,
-    name: 'FakeStore',
+    name: 'Multi-Post Stories',
     description:
-      'This is a web application that provides information on each product of the store, allowing users to filter through the results',
-    img: 'images/popup.png',
+      'A daily selection of privately personalized reads no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    img: 'popup.png',
     language1: 'CSS',
     language2: 'Redux',
     language3: 'React',
@@ -93,7 +93,7 @@ const displayProjects = (index) => {
     return `<div class="popup-div" id="${index}">
         <div class="header-popup">
           <h2 class="title-popup">${name}</h2>
-          <img src="./images/times.png" class="closingIcon" alt="close-icon">
+          <img src="times.png" class="closingIcon" alt="close-icon">
         </div>
         <div class="project-popup">
           <img src="${img}" alt="image-popup" class="image-popup">
@@ -108,11 +108,11 @@ const displayProjects = (index) => {
             <div class="popup-buttons">
               <button  class="btn1">
               <a href="${liveLink}">See Live</a>
-              <img src="./images/icon-live.png" alt="live-icon">
+              <img src="icon-live.png" alt="live-icon">
               </button>
               <button class="btn1">
                   <a href="${sourceLink}">See Source</a>
-                  <img src="./images/vector.png" alt="source-icon">
+                  <img src="vector.png" alt="source-icon">
               </button>
             </div>
           </div>
