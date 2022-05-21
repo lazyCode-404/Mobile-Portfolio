@@ -89,8 +89,7 @@ const displayProjects = (index) => {
     language4,
     liveLink,
     sourceLink,
-  }) => {
-    return `<div class="popup-div" id="${index}">
+  }) => `<div class="popup-div" id="${index}">
         <div class="header-popup">
           <h2 class="title-popup">${name}</h2>
           <img src="times.png" class="closingIcon" alt="close-icon">
@@ -118,7 +117,6 @@ const displayProjects = (index) => {
           </div>
         </div>
       </div>`;
-  };
 
   projects.forEach((pro) => {
     if (pro.id === index) {
