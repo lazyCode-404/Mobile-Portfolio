@@ -29,7 +29,7 @@ const projects = [
     name: 'Girls in ICT Summit',
     description:
       'This project showcases a Girls in ICT summit. It was built with HTML, CSS and JavaScript.',
-    img: 'summit-1 2.png',
+    img: 'summit-2.png',
     language1: 'CSS',
     language2: 'HTML',
     language3: 'Bootstrap',
